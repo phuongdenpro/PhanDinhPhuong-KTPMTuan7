@@ -15,7 +15,7 @@ import java.util.Map;
 
 @Service
 public class ChuyenBayServiceImpl implements ChuyenBayService {
-    static final String BASE_URL = "http://localhost:8000/chuyen-bay";
+    static final String BASE_URL = "http://localhost:8080/chuyen-bay";
     private static Gson gson = new Gson();
 
     private static RestTemplate restTemplate = new RestTemplate();
